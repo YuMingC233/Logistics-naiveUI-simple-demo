@@ -1,0 +1,58 @@
+/* 设置整个页面的字体和对齐方式 */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* 设置表格的宽度、边框和边框间距 */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* 设置表头的样式 */
+th {
+  background-color: #ffcc00; /* 黄色 */
+  color: black;
+}
+
+/* 针对表格中的不同部分设置背景颜色 */
+.name-column {
+  background-color: #ff0000;
+} /* 红色 */
+.gender-column {
+  background-color: #ffff00;
+} /* 浅黄色 */
+.number-column {
+  background-color: #6eb67e;
+} /* 绿色 */
+.major-column {
+  background-color: white;
+} /* 浅蓝色 */
+.score-column {
+  background-color: #64c2f2;
+} /* 蓝色 */
+
+/* 设置单元格的边框和文本对齐方式 */
+td,
+th {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+/* 设置第一行和第一列的文本对齐方式 */
+.first-row,
+.name-column {
+  text-align: center;
+  font-weight: bold;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.hw-5 tr,
+.hw-5 tr > td {
+  border: 1px solid #6a7da9;
+}
